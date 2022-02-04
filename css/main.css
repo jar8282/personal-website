@@ -7,7 +7,14 @@ h1 {
 body {
   margin-left: 20px;
   margin-right: 20px;
-  text-align: center;
   font-size: large;
   background-color: #dcdcdc;
+}
+.about-text {
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
 }

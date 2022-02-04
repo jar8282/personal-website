@@ -1,9 +1,12 @@
 h1 {
   color: #6495ED;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 body {
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   font-size: large;
   background-color: #dcdcdc;

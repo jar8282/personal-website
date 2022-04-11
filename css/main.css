@@ -1,7 +1,10 @@
-h1 {
-  color: #6495ED;
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
+}
+
+h1 {
+  color: #6495ED;
 }
 
 header ul {

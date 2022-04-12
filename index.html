@@ -51,11 +51,16 @@
       </p>
       <p>
         <h4>Or, send me a message:</h4>
-        <form>
-          <input type="text" email="email" placeholder="yourEmail@email.com" required>
-          <input type="text" msg="msg" placeholder="message" required>
-          <input type="submit" value="Submit">
-        </form>
+          <form action="https://formspree.io/f/moqrkdrw" method="POST">
+            <label>
+              Your email:<input type="email" name="email">
+            </label>
+            <label>
+              Your message: <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
       </p>
     </div>
     <!--footer-->

@@ -45,3 +45,19 @@ body {
   font-size: large;
 }
 
+img.hero {
+  max-width: 25%;
+  max-height: 25%;
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+.contact {
+  display: block;
+  background-color: lightgrey;
+  border: 3px;
+  border-style: solid;
+  border-color: #6495ED;
+  padding: 12px;
+}

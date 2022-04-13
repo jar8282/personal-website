@@ -9,24 +9,31 @@ h1 {
 
 header ul {
   list-style-type: none;
-  margin: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   overflow: hidden;
   background-color: #333;
 }
 header li {
   float: left;
 }
+
 header li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   text-decoration: none;
+  font-size: x-large;
 }
+
+header li img {
+  padding-right: 0.5rem;
+}
+
 header li a:hover {
   background-color: #111;
 }
@@ -36,28 +43,62 @@ header li a:hover {
 }
 
 body {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: large;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: larger;
   background-color: #dcdcdc;
 }
 .about {
-  font-size: large;
+  font-size: x-large;
+  padding: 0rem 2rem;
 }
 
-img.hero {
-  max-width: 25%;
-  max-height: 25%;
-  float: left;
-  padding-right: 15px;
-  padding-bottom: 25px;
+.hero {
+  width: 20%;
+  height: 20%;
+  padding-right: 1rem;
 }
 
 .contact {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: lightgrey;
-  border: 3px;
+  border: .4rem;
   border-style: solid;
   border-color: #6495ED;
-  padding: 12px;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contactright {
+  margin-left: 1rem;
+}
+
+.contactright h3 {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.message {
+  text-align: center;
+}
+
+
+button {
+  margin: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  overflow: hidden;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
+  width: 40rem;
+  height: 10rem;
+
 }

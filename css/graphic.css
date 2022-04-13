@@ -1,0 +1,21 @@
+.gallery {
+  margin: 1rem;
+  border: 0.2rem solid #333;
+  float: left;
+  width: 20rem;
+}
+
+.gallery:hover {
+  border: 0.5rem solid #6495ED;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 1rem;
+  text-align: center;
+  background-color: lightgray;
+}

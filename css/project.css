@@ -2,11 +2,15 @@
   display: block;
   background-color: #c7c7c7;
   margin: 1rem;
+  margin-bottom: 1.5rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
   padding-left: 1rem;
   padding-right: 1rem;
   overflow: hidden;
+  border: .4rem;
+  border-style: solid;
+  border-color: #6495ED;
 }
 
 .card li {
@@ -15,4 +19,5 @@
 
 .card h3 {
   text-align: center;
+  
 }

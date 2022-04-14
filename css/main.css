@@ -15,6 +15,7 @@ header ul {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   overflow: hidden;
+  text-align: center;
   background-color: #333;
 }
 header li {
@@ -59,28 +60,52 @@ body {
   padding-right: 1rem;
 }
 
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.information {
+  font-size: larger;
+  padding: 0rem 2rem;
+}
+
+.information ul {
+  list-style-type: none;
+  margin: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.information li {
+  display: inline-block;
+}
+
+.information li a {
+  display: block;
+  color: #6495ED;
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.information li a:hover {
+  color: #111;
+}
+
+.contactright {
+  text-align: center;
+  display: block;
   background-color: lightgrey;
   border: .4rem;
   border-style: solid;
   border-color: #6495ED;
-  padding-left: 1.5rem;
   margin-bottom: 2rem;
-}
-
-.contactright {
-  margin-left: 1rem;
-}
-
-.contactright h3 {
-  text-align: center;
-}
-
-.wrapper {
-  display: flex;
-  flex-flow: row nowrap;
 }
 
 .message {
@@ -93,12 +118,13 @@ button {
 }
 
 textarea {
+  box-sizing: border-box;
   resize: vertical;
   overflow: hidden;
   margin: auto;
   display: block;
   margin-top: 2rem;
-  width: 40rem;
+  width: 90%;
   height: 10rem;
 
 }

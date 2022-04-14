@@ -3,21 +3,19 @@
   background-color: #c7c7c7;
   margin: 1rem;
   margin-bottom: 1.5rem;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 3rem;
   overflow: hidden;
   border: .4rem;
   border-style: solid;
   border-color: #6495ED;
+  text-align: center;
 }
 
 .card li {
   list-style-type: none;
 }
 
-.card h3 {
-  text-align: center;
-  
+.intro {
+  font-size: x-large;
+  padding: 0rem 2rem;
 }

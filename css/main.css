@@ -49,6 +49,7 @@ body {
   font-size: larger;
   background-color: #dcdcdc;
 }
+
 .about {
   font-size: x-large;
   padding: 0rem 2rem;
@@ -98,7 +99,7 @@ body {
   color: #111;
 }
 
-.contactright {
+.sendmsg {
   text-align: center;
   display: block;
   background-color: lightgrey;

@@ -67,13 +67,18 @@ nav {
 
 .toggle-button {
   position: absolute;
-  top: 1.8rem;
-  right: 3rem;
+  top: 0.6rem;
+  right: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 40px;
-  height: 30px;
+  width: 62px;
+  height: 45px;
+  padding: 0.8rem;
+}
+
+.toggle-button:hover {
+  background-color: #444;
 }
 
 .toggle-button .bar {

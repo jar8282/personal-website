@@ -21,6 +21,19 @@ h2 {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 500px) {
+  h1 {
+    font-size: 200%;
+  }
+  .about h3 {
+    font-size: 100%;
+  }
+
+  .information b {
+    font-size: smaller;
+  }
+}
+
 nav {
   display: flex;
   position: relative;

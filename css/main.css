@@ -5,6 +5,18 @@ body {
 
 h1 {
   color: #6495ED;
+  text-align: center;
+  font-size: 250%;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.about h3 {
+  color: #6495ED;
+  text-align: center;
+  text-decoration: overline;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 header ul {

@@ -46,7 +46,8 @@ nav {
 .navbar ul {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0rem;
+  padding-right: 2rem;
 }
 
 .navbar li {
@@ -82,7 +83,7 @@ nav {
   border-radius: 10px;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 645px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -100,6 +101,7 @@ nav {
   .navbar ul {
     width: 100%;
     flex-direction: column;
+    padding: 0;
   }
 
   .navbar ul li {
@@ -131,11 +133,11 @@ body {
   padding: 0rem 2rem;
 }
 
-.hero {
-  width: 20%;
-  height: 20%;
-  padding-right: 1rem;
-  margin-top: 1rem;
+.hero img{
+  width: 20rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
 }
 
 .wrapper {
@@ -174,6 +176,26 @@ body {
 
 .information li a:hover {
   color: #111;
+}
+
+@media(max-width: 1000px){
+  .hero img {
+    width: 80%;
+    padding-right: 0;
+  }
+
+}
+
+@media(max-width:800px){
+  .wrapper{
+    display: block;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero img {
+    width: 50%;
+  }
 }
 
 .sendmsg {

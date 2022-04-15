@@ -7,21 +7,34 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/project.css">
+    <script src="../nav.js" defer></script>
     <title>Jarod Rowland Website</title>
   </head>
   <body>
     <!--Navigation-->
     <header>
-        <nav role="navigation" aria-label="navigation menu">
-          <ul class="navbar">  
-            <li><img src="../assets/logo.png" width="55"></li>     
+      <nav role="navigation" aria-label="navigation menu">
+
+        <div class="branding">
+          <img src="../assets/logo.png"> 
+        </div>
+
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+
+        <div class="navbar">
+          <ul>       
             <li><a href="../">home</a></li>
             <li><a href="../resume/Resume.pdf" target="_blank">resume</a></li>
-            <li><a class="active" href="../projects">projects</a></li>
+            <li><a class="active-page" href="#">projects</a></li>
             <li><a href="../graphic-design">graphic design</a></li>
           </ul>
-        </nav>
-      </h2>
+        </div>
+
+      </nav>
     </header>
 
     <!--Projects-->

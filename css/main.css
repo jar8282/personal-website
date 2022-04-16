@@ -9,11 +9,15 @@ h1 {
   color: #6495ED;
   text-align: center;
   font-size: 250%;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
   margin: 0;
   margin-bottom: 0.5rem;
 }
 
 h2 {
+  font-family: 'Raleway',sans-serif;
   margin-left: 2rem;
 }
 
@@ -26,13 +30,16 @@ h2 {
 
 .about h3 {
   color: #6495ED;
+  font-family: 'Raleway',sans-serif;
+  line-height: 1rem;
+  font-weight: 600;
   text-align: center;
   text-decoration: overline;
   margin: 0;
   margin-bottom: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 200%;
   }
@@ -54,7 +61,7 @@ h2 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   h1 {
     font-size: 160%;
   }
@@ -70,6 +77,11 @@ h2 {
   .contact {
     margin-left: 6%;
   margin-right: 6%;
+  }
+}
+@media (max-width:600px) {
+  h1 {
+    font-size: 130%;
   }
 }
 

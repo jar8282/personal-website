@@ -1,121 +1,118 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/graphic.css">
-    <script src="../nav.js" defer></script>
-    <title>Graphic Design</title>
-  </head>
-  <body>
-    <!--Navigation-->
-    <header>
-      <nav role="navigation" aria-label="navigation menu">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/shared.css">
+  <link rel="stylesheet" href="../css/graphic.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <title>Graphic Design</title>
+</head>
 
-        <div class="branding">
-          <img src="../assets/logo.png"> 
-        </div>
+<header>
+  <div class="brand">
+    <img src="../assets/logo.png">
+    <h1>Jarod Rowland</h1>
+    <h2>Computer Science Student</h2>
+    
+  </div>
 
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="../">Home</a>
+      </li>
+      <li>
+        <a href="../projects/">Projects</a>
+      </li>
+      <li class="active">
+        <a href="#">Graphic Design</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
-        <div class="navbar">
-          <ul>       
-            <li><a href="../">home</a></li>
-            <li><a href="../resume/Resume.pdf" target="_blank">resume</a></li>
-            <li><a href="../projects">projects</a></li>
-            <li><a class="active-page" href="#">graphic design</a></li>
-          </ul>
-        </div>
+<body>
+  <!--Graphic Design-->
+  <div class="content">
+    <h1>Graphic Art Portfolio</h1>
+    <p class="intro">
+      I have hobbiest experience with vector graphics as well as 3D modeling, utilizing tools such as Inkscape and Maya. This is a collection of some of my work. 
+    </p>
 
-      </nav>
-    </header>
-
-    <!--Graphic Design-->
-    <div class="graphic-design">
-      <h1>Graphic Art Portfolio</h1>
-      <p class="intro">
-        I have hobbiest experience with vector graphics as well as 3D modeling, utilizing tools such as Inkscape and Maya. This is a collection of some of my work. 
+    <div class="gallery">
+      <a target="_blank" href="../assets/Kalden.png">
+        <img src="../assets/Kalden.png">
+      </a>
+      <p class="desc">
+        Portrait of my dog, Kalden. Rest in peace buddy. Created in Inkscape. 
       </p>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/Kalden.png">
-          <img src="../assets/Kalden.png">
-        </a>
-        <div class="desc">
-          Portrait of my dog, Kalden. Rest in peace buddy. Created in Inkscape. 
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/logofull.png">
-          <img src="../assets/logofull.png">
-        </a>
-        <div class="desc">
-          Self-portrait I created in Inkscape. 
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/earth.png">
-          <img src="../assets/earth.png">
-        </a>
-        <div class="desc">
-          Logo of Earth I made during Earth Day, in Inkscape.
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/mountain.png">
-          <img src="../assets/mountain.png">
-        </a>
-        <div class="desc">
-          Forest valley scene, inspired by the game Firewatch. Created in Inkscape.
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/europa.png">
-          <img src="../assets/europa.png">
-        </a>
-        <div class="desc">
-          Travel poster for the moon Europa. Created in Inkscape. 
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/characterfull.jpg">
-          <img src="../assets/characterfull.jpg">
-        </a>
-        <div class="desc">
-          Knight character concept for the Intro Modeling and Motion class. Created in Maya, using hand written references and simple rigging from HumanIK.
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/guitar.jpg">
-          <img src="../assets/guitar.jpg">
-        </a>
-        <div class="desc">
-          Simple guitar model I created for a room design project in Intro Modeling and Motion. It was my introduction to using curves to create objects (the guitar strings). Created in Maya.
-        </div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="../assets/globe.jpg">
-          <img src="../assets/globe.jpg">
-        </a>
-        <div class="desc">
-          Still frame of my final project for the Intro Modeling and Motion class, rendered using Arnold in Maya. I created a toy snow globe of some important locations from my home city of Albany, NY. As the animation progressed, the globe is wound up and the pieces grow into their full size. It was inspired by the Game of Thrones opening scene. <a href="https://photos.app.goo.gl/pzpvh51oWFEDiU1b9" target="_blank">Full Video</a>
-        </div>
-      </div>
-      
     </div>
-  </body>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/logofull.png">
+        <img src="../assets/logofull.png">
+      </a>
+      <p class="desc">
+        Self-portrait I created in Inkscape. 
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/earth.png">
+        <img src="../assets/earth.png">
+      </a>
+      <p class="desc">
+        Logo of Earth I made during Earth Day, in Inkscape.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/mountain.png">
+        <img src="../assets/mountain.png">
+      </a>
+      <p class="desc">
+        Forest valley scene, inspired by the game Firewatch. Created in Inkscape.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/europa.png">
+        <img src="../assets/europa.png">
+      </a>
+      <p class="desc">
+        Travel poster for the moon Europa. Created in Inkscape. 
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/characterfull.jpg">
+        <img src="../assets/characterfull.jpg">
+      </a>
+      <p class="desc">
+        Knight character concept for the Intro Modeling and Motion class. Created in Maya, using hand written references and simple rigging from HumanIK.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/guitar.jpg">
+        <img src="../assets/guitar.jpg">
+      </a>
+      <p class="desc">
+        Simple guitar model I created for a room design project in Intro Modeling and Motion. It was my introduction to using curves to create objects (the guitar strings). Created in Maya.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="../assets/globe.jpg">
+        <img src="../assets/globe.jpg">
+      </a>
+      <p class="desc">
+        Still frame of my final project for the Intro Modeling and Motion class, rendered using Arnold in Maya. I created a toy snow globe of some important locations from my home city of Albany, NY. As the animation progressed, the globe is wound up and the pieces grow into their full size. It was inspired by the Game of Thrones opening scene. <a href="https://photos.app.goo.gl/pzpvh51oWFEDiU1b9" target="_blank">Full Video</a>
+      </p>
+    </div>
+    
+  </div>
+</body>
 </html>

@@ -1,0 +1,53 @@
+body {
+  margin: 0 6% 6%;
+  background-color:aliceblue;
+}
+
+h1 {
+  color:#252525;
+  font-family: 'Raleway',sans-serif; 
+  font-size: 62px; font-weight: 800;
+  line-height: 72px; 
+  margin: 0 0 20px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+h2 { 
+  color:#252525;
+  font-family: 'Raleway',sans-serif; 
+  font-size: 30px; 
+  font-weight: 800; 
+  line-height: 36px;
+  margin: 0 0 20px; 
+  text-align: center; 
+}
+
+h3 {
+  color:#252525;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: 600px;
+  line-height: 30px;
+  margin: 0 0 15;
+}
+
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,sans-serif; 
+  font-size: 18px; 
+  font-weight: 500; 
+  line-height: 24px; 
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+a { 
+  text-decoration: none; 
+}
+
+.content {
+  background-color: lightgrey;
+  padding: 1rem;
+  text-align: center;
+}
+

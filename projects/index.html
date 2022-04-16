@@ -1,80 +1,78 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/project.css">
-    <script src="../nav.js" defer></script>
-    <title>Projects</title>
-  </head>
-  <body>
-    <!--Navigation-->
-    <header>
-      <nav role="navigation" aria-label="navigation menu">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/shared.css">
+  <link rel="stylesheet" href="../css/project.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <title>Projects</title>
+</head>
 
-        <div class="branding">
-          <img src="../assets/logo.png"> 
-        </div>
-
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-
-        <div class="navbar">
-          <ul>       
-            <li><a href="../">home</a></li>
-            <li><a href="../resume/Resume.pdf" target="_blank">resume</a></li>
-            <li><a class="active-page" href="#">projects</a></li>
-            <li><a href="../graphic-design">graphic design</a></li>
-          </ul>
-        </div>
-
-      </nav>
-    </header>
-
-    <!--Projects-->
-    <div class="projects">
-      <h1>Projects</h1>
-      <p class="intro">
-        This is a collection of projects I have worked on. When applicable, links to GitHub, or the project itself, are available. Thank you for checking out my work!
-      </p>
-      <h2>Personal Projects:</h2>
-
-      <div class="card">
-        <ul>
-          <li>
-            <h3>Personal Website</h3>
-            <p>This static website was my first introduction to HTML and CSS, built during the spring 2022 semester: <a href="https://github.com/jar8282/personal-website" target="_blank">GitHub</a></p>
-          </li>
-        </ul>
-      </div>
-
-      <h2>Academic Projects:</h2>
-
-      <div class="card">
-        <ul>
-          <li>
-            <h3>Breadth-First-Search Puzzle Solver</h3>
-            <p>For the CS 2 class, I created a generic BFS puzzle solver, which worked on well known puzzles like the Die Hard water puzzle and the Rush Hour car jam game. For Rush Hour, I implemented a GUI using javaFX, using user input to solve the puzzle with the BFS algorithm providing hints.</p>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <ul>
-          <li>
-            <h3>Music DBMS Project</h3>
-            <p>For Intro to Database Management, I collaborated on a spotify-like database application, using Java and SQL. We imported a music dataset and allowed users to like songs, add songs to a collection, and add friends. We created and analyzed user data such as listenership on the app over time, and most played songs.</p>
-          </li>
-        </ul>
-      </div>
-
-    </div>
+<header>
+  <div class="brand">
+    <img src="../assets/logo.png">
+    <h1>Jarod Rowland</h1>
+    <h2>Computer Science Student</h2>
     
-  </body>
+  </div>
+
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="../">Home</a>
+      </li>
+      <li class="active">
+        <a href="#">Projects</a>
+      </li>
+      <li>
+        <a href="../graphic-design/">Graphic Design</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+
+  <!--Projects-->
+  <div class="content">
+    <h1>Projects</h1>
+    <p class="intro">
+      This is a collection of projects I have worked on. When applicable, links to GitHub, or the project itself, are available. Thank you for checking out my work!
+    </p>
+    <h2>Personal Projects:</h2>
+
+    <div class="card">
+      <ul>
+        <li>
+          <h3>Personal Website</h3>
+          <p>This static website was my first introduction to HTML and CSS, built during the spring 2022 semester: <a href="https://github.com/jar8282/personal-website" target="_blank">GitHub</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <h2>Academic Projects:</h2>
+
+    <div class="card">
+      <ul>
+        <li>
+          <h3>Breadth-First-Search Puzzle Solver</h3>
+          <p>For the CS 2 class, I created a generic BFS puzzle solver, which worked on well known puzzles like the Die Hard water puzzle and the Rush Hour car jam game. For Rush Hour, I implemented a GUI using javaFX, using user input to solve the puzzle with the BFS algorithm providing hints.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <ul>
+        <li>
+          <h3>Music DBMS Project</h3>
+          <p>For Intro to Database Management, I collaborated on a spotify-like database application, using Java and SQL. We imported a music dataset and allowed users to like songs, add songs to a collection, and add friends. We created and analyzed user data such as listenership on the app over time, and most played songs.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  
+</body>
 </html>

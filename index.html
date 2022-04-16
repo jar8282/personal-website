@@ -1,90 +1,61 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="nav.js" defer></script>
-    <title>Home</title>
-  </head>
-  <body>
-    <!--Navigation-->
-    <header>
-      <nav role="navigation" aria-label="navigation menu">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <title>Home</title>
+</head>
 
-        <div class="branding">
-          <img src="assets/logo.png"> 
-        </div>
+<header>
+  <div class="brand">
+    <img src="assets/logo.png">
+    <h1>Jarod Rowland</h1>
+    <h2>Computer Science Student</h2>
+    
+  </div>
 
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
+  <nav class="navbar">
+    <ul>
+      <li class="active">
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="projects/">Projects</a>
+      </li>
+      <li>
+        <a href="graphic-design/">Graphic Design</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
-        <div class="navbar">
-          <ul>       
-            <li><a class="active-page" href="#">home</a></li>
-            <li><a href="resume/Resume.pdf" target="_blank">resume</a></li>
-            <li><a href="projects">projects</a></li>
-            <li><a href="graphic-design">graphic design</a></li>
-          </ul>
-        </div>
 
-      </nav>
-    </header>
-
-    <!--About-->
-    <div class="about">
-      <h1>Jarod Rowland</h1>
-      <h3>- Computer Science Student -</h3>
-      <div class="wrapper">
-        <div class="hero">
-          <img src="assets/tempHero.jpg"">
-        </div>
-        <div>
-          <p>
-          Hello, I'm a undergraduate student at Rochester Institute of Technology studying computer science! Right now, I am exploring more with front-end development, and I am very interested in computer graphics and visualization.
-          </p>
-          <p>
-          Besides coding, I spend my time learning guitar, working on vector art, and playing videogames! I am a big Marvel fan, and enjoy constantly learning new things.
-          </p>
-          <p>
-          I am currently looking for software development co-op opportunities in order to expand my knowledge and learn more about the industry. If you think I could be a good fit, please do not hestitate to reach out below!
-          </p>
-        </div>
-      </div>
-    </div>
-
+<body>
+  <div class="content">
+    <p>
+      Undergraduate computer science student studying at Rochester Institute of Technology, interested in learning more about front-end development and computer graphics.
+    </p>
+    <p>
+      I am currently looking for software development co-op opportunities in order to expand my knowledge and learn more about the industry. 
+    </p>
+    <p>
+      Do you think I could be a good fit with your company? Send me an email or message me on LinkedIn!
+    </p>
     <hr>
-    <!--Contact-->
-    <div class="contact">
-
-      <div class="information">
-        <ul>
-          <li><a href="mailto: jarowland8@gmail.com"><b>Email</b></a></li>
-          <li><a href="https://www.linkedin.com/in/jarod-rowland/" target="_blank"><b>LinkedIn</b></a></li>
-          <li><a href="https://github.com/jar8282" target="_blank"><b>GitHub</b></a></li>
-        </ul>
-      </div>
-
-      <div class="sendmsg">
-        <h3>Send me a message</h3>
-        <form action="https://formspree.io/f/moqrkdrw" method="POST" class="message">
-          <label>
-            <input type="email" name="email" placeholder="youremail@email.com">
-          </label>
-          <label>
-            <textarea name="message"placeholder="write your message here"></textarea>
-          </label>
-          <!-- your other form fields go here -->
-          <button type="submit">Send</button>
-        </form>
-      </div>
-
+    <div class="resume">
+      <a href="resume/Resume.pdf" target="_blank">Resume</a>
     </div>
-    <!--footer-->
-  </body>
+    <div class="information">
+      <ul>
+        <li><a href="mailto: jarowland8@gmail.com"><b>Email</b></a></li>
+        <li><a href="https://www.linkedin.com/in/jarod-rowland/" target="_blank"><b>LinkedIn</b></a></li>
+        <li><a href="https://github.com/jar8282" target="_blank"><b>GitHub</b></a></li>
+      </ul>
+    </div>
+  
+</body>
 </html>

@@ -1,0 +1,71 @@
+
+.brand {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
+.brand img {
+  width: 20%;
+  border: 0.2rem solid darkgrey;
+  border-radius: 100%;
+}
+
+nav {
+  background-color: #333;
+  border: 0;
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: #42467e;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  padding: 1rem;
+  font-size: 28px;
+}
+
+.navbar li:hover {
+  background-color: #444;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+  padding: 0.8rem;
+}
+
+.toggle-button:hover {
+  background-color: #444;
+}
+
+.toggle-button .bar {
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: #42467e;
+}

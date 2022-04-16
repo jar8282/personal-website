@@ -195,16 +195,9 @@ nav {
   margin-right: 12%;
 }
 
-.information {
-  font-size: larger;
-  padding: 0rem 2rem;
-}
-
 .information ul {
   list-style-type: none;
   margin: 1rem;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   overflow: hidden;
@@ -227,19 +220,26 @@ nav {
 .information li a:hover {
   color: #111;
 }
+.contact h3 {
+  text-align: center;
+}
 
 .sendmsg {
-  text-align: center;
   display: block;
   background-color: lightgrey;
   border: .4rem;
   border-style: solid;
   border-color: #6495ED;
   margin: 2rem;
+  margin-top: 0rem;
 }
 
+input {
+  margin-left: 5%;
+}
 button {
   margin: 1rem;
+  margin-left: 5%;
 }
 
 textarea {

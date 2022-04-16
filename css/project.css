@@ -26,3 +26,10 @@
   font-size: x-large;
   padding: 0rem 2rem;
 }
+
+@media (max-width: 800px) {
+  .projects {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+}

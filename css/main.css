@@ -46,13 +46,15 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 150%;
-  }
-  .about h3 {
-    font-size: 50%;
+  .about {
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
+  .contact {
+    margin-left: 6%;
+  margin-right: 6%;
+  }
   .information b {
     font-size:small;
   }
@@ -236,6 +238,7 @@ nav {
 
 input {
   margin-left: 5%;
+  width: 25%;
 }
 button {
   margin: 1rem;

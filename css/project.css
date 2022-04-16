@@ -1,9 +1,16 @@
+.projects {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
 .card {
   display: block;
   background-color: #c7c7c7;
   margin: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 1.5rem;
-  padding-right: 3rem;
+  padding-right: 2.5rem;
   overflow: hidden;
   border: .4rem;
   border-style: solid;

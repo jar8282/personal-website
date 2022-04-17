@@ -68,6 +68,10 @@ nav {
   background-color: #42467e;
 }
 
+.active a:hover {
+  background-color: #42467e;
+}
+
 @media (max-width: 525px) {
   nav {
     border: 0;

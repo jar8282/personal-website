@@ -2,30 +2,13 @@
 .card {
   display: block;
   background-color: #e2e2e2;
-  margin: 1rem;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 1.5rem;
-  padding-right: 2.5rem;
-  overflow: hidden;
+  margin: 1rem 0rem 1.5rem;
   border: .4rem;
   border-style: solid;
   border-color: #6495ED;
-  text-align: center;
-}
-
-.card li {
-  list-style-type: none;
 }
 
 .intro {
   font-size: x-large;
-  padding: 0rem 2rem;
-}
-
-@media (max-width: 800px) {
-  .projects {
-  margin-left: 5%;
-  margin-right: 5%;
-  }
+  margin: 1rem;
 }

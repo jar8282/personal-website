@@ -26,6 +26,7 @@
 .intro {
   font-size: x-large;
   padding: 0rem 2rem;
+  margin: 1rem 0;
 }
 
 @media(max-width:1450px){

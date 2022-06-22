@@ -51,6 +51,25 @@ a {
   text-align: center;
 }
 
+
+.clickable {
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.clickable a{
+  color: white;
+  background-color: #6495ED;
+  padding:  0.5rem 1rem;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.clickable a:hover {
+  background-color: #4980e7;
+
+}
+
 @media (max-width:600px) {
   h1 {
     font-size: 50px;
@@ -59,4 +78,5 @@ a {
   h2 {
     font-size: 25px;
   }
+
 }

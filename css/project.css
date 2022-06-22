@@ -8,7 +8,19 @@
   border-color: #6495ED;
 }
 
+p {
+  padding: 0.5rem;
+}
 .intro {
   font-size: x-large;
   margin: 1rem;
+}
+
+.clickable {
+  margin: -1rem 0.25rem 1.5rem;
+  display: inline-flex;
+}
+
+.clickable a{
+  font-size: 20px;
 }

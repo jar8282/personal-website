@@ -2,24 +2,6 @@ hr {
   border: 1.5px solid rgba(153, 153, 153, 0.368);
 }
 
-.resume {
-  margin: 1rem;
-  margin-top: 2rem;
-}
-
-.resume a{
-  color: white;
-  background-color: #6495ED;
-  padding:  0.5rem 1rem;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.resume a:hover {
-  background-color: #4980e7;
-
-}
-
 .information ul {
   list-style-type: none;
   display: flex;

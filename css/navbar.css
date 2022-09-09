@@ -7,8 +7,12 @@
 
 .brand img {
   width: 20%;
-  border: 0.2rem solid darkgrey;
+  border: 0.3rem solid darkgrey;
   border-radius: 100%;
+}
+
+.brand img:hover {
+  width: 20.5%;
 }
 
 nav {

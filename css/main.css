@@ -26,3 +26,17 @@ hr {
 .information li a:hover {
   color: #4980e7;
 }
+
+@media (max-width:350px) {
+  .clickable a {
+    font-size: 25px;
+  }
+
+  .information b {
+    font-size: 20px;
+  }
+
+  .information li a {
+    padding: 0.5rem;
+  }
+}

@@ -6,13 +6,13 @@
 }
 
 .brand img {
-  width: 20%;
+  width: clamp(6rem,20%, 12rem);
   border: 0.3rem solid darkgrey;
   border-radius: 100%;
 }
 
 .brand img:hover {
-  width: 20.5%;
+  border: 0.3rem solid #42467e;
 }
 
 nav {

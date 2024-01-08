@@ -1,5 +1,6 @@
 body {
-  margin: 0 6% 6%;
+  margin: 0 auto 6%;
+  width: clamp(200px, 88%, 1000px);
   background-color:aliceblue;
 }
 
@@ -40,7 +41,6 @@ p {
   margin: 1rem;
   padding: 0.5rem 1rem;
   text-align: left;
-
 }
 
 a { 
@@ -65,6 +65,7 @@ a {
   padding:  0.5rem 1rem;
   text-decoration: none;
   font-size: 30px;
+  transition: background-color .3s;
 }
 
 .clickable a:hover {

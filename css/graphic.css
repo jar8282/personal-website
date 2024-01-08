@@ -1,19 +1,18 @@
-
-.gallery {
+.card {
   margin: 1rem;
   border: 0.2rem solid #333;
   display:inline-flex;
   flex-direction: column;
-  width: 28%;
+  width: 25%;
   padding: 0.5rem;
   background-color:#e2e2e2;
 }
 
-.gallery:hover {
+.card:hover {
   border-color:  #6495ED;
 }
 
-.gallery img {
+.card img {
   width: 100%;
   height: auto;
 }
@@ -30,25 +29,19 @@
 }
 
 @media(max-width:1450px){
-  .gallery {
+  .card {
     width: 26%;
   }
 }
 
 @media(max-width:1200px){
-  .gallery {
-    width: 43%;
-  }
-}
-
-@media(max-width:1090px){
-  .gallery {
+  .card {
     width: 40%;
   }
 }
 
 @media(max-width:800px){
-  .gallery {
+  .card {
     width: 90%;
   }
 }

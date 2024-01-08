@@ -32,6 +32,7 @@ nav {
 
 .navbar li {
   list-style: none;
+  transition: background-color .2s;
 }
 
 .navbar li a {
@@ -43,6 +44,15 @@ nav {
 
 .navbar li:hover {
   background-color: #444;
+}
+
+.active {
+  background-color: #42467e;
+  transition: none !important;
+}
+
+.active a:hover {
+  background-color: #42467e;
 }
 
 .toggle-button {
@@ -66,14 +76,6 @@ nav {
   width: 100%;
   background-color: white;
   border-radius: 10px;
-}
-
-.active {
-  background-color: #42467e;
-}
-
-.active a:hover {
-  background-color: #42467e;
 }
 
 @media (max-width: 525px) {

@@ -1,7 +1,7 @@
 body {
   margin: 0 auto 6%;
   width: clamp(200px, 88%, 1000px);
-  background-color:aliceblue;
+  background-color:rgb(255, 253, 248);
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
   font-family: 'Raleway',sans-serif; 
   font-size: 50px; font-weight: 800;
   line-height: 50px; 
-  margin: 0 0 20px; 
+  margin: 5px 0 10px; 
   text-align: center; 
   text-transform: uppercase; 
 }
@@ -30,7 +30,7 @@ h3 {
   font-size: 26px;
   font-weight: 600px;
   line-height: 24px;
-  margin: 10px 0 15px;
+  margin: 10px 0 10px;
 }
 
 p {

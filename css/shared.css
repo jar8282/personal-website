@@ -1,7 +1,7 @@
 body {
   margin: 0 auto 6%;
   width: clamp(200px, 88%, 1000px);
-  background-color:rgb(255, 253, 248);
+  background-color:aliceblue;
 }
 
 h1 {
